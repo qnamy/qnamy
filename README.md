@@ -32,6 +32,20 @@ AI-assisted development workflow입니다.
 
 ➡️ [harnie 자세히 보기](https://github.com/qnamy/harnie)
 
+### [agent-ops](https://github.com/qnamy/agent-ops)
+
+Claude Code와 Codex를 하나의 지침 체계로 묶어 운영하는
+개인 AI 운영 리포지토리입니다. harnie가 하네스 엔지니어링이라면,
+agent-ops는 그 도구들을 일상 업무에서 운영하는 방법을 다룹니다.
+
+- 전역 지침 정본 단일화 — 두 도구가 같은 파일을 심링크로 공유 (사본·드리프트 제로)
+- 판단 기준(리뷰·설계·코딩)은 harnie 스킬을 SSOT로 라우팅
+- "저비용 트리거 + GPT 실행" 자동화 루틴 — PR 리뷰·배포 승인·댓글 해결·품질 다이제스트 무인 운영
+- 토큰 경제 설계: on-demand 문서 로드, no-op 폴링 최소 비용, 모델 티어 매칭
+- 운영 인시던트에서 도출한 멱등성·상태 관리 규칙 기록
+
+➡️ [agent-ops 자세히 보기](https://github.com/qnamy/agent-ops)
+
 ## Professional Experience
 
 결제·구독 플랫폼, CQRS 기반 선적 추적 시스템,
